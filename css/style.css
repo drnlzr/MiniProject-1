@@ -6,13 +6,13 @@
 }
 /* Show it is fixed to the top */
 body {
-    min-height: 75rem;
     padding-top: 4.7rem;
     overflow-x: hidden;
 }
 
 .dark-red button{
     background-color: rgba(127, 30, 30, 1);
+    font-family: 'Inter', sans-serif;
 }
 
 .margin-cus {
