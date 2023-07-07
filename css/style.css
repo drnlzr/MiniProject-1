@@ -1,6 +1,9 @@
 .cus-font a, button{
     font-family: 'Inter', sans-serif;
 }
+.cus-font2{
+    font-family: 'Francois One', sans-serif;
+}
 /* Show it is fixed to the top */
 body {
     min-height: 75rem;
@@ -124,7 +127,7 @@ body {
 
 .suman-content button {
     font-family: 'Inter', sans-serif;
-    font-size: 16PX;
+    font-size: 16px;
 }
 
 .vr-line {
@@ -136,6 +139,57 @@ body {
 .cus-icons {
     transform: translateY(-90px);
 }
+
+
+
+
+/* about us page */
+ 
+.text h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Atma', cursive;
+}
+
+.browny-text p{
+    font-family: 'Atma', cursive;
+    font-size: 18px;
+}
+
+.img-cus {
+    display: block;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* about us page */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsiveness */
 
@@ -277,6 +331,15 @@ body {
     .pos {
         display: none;
        } 
+
+       .browny-text p{
+        font-family: 'Atma', cursive;
+        font-size: 10px;
+    }
+
+    .text h1{
+        font-size: 40px;
+    }
 }
 
 
@@ -292,6 +355,10 @@ body {
     .menu-respo button {
         font-size: 5px;
     }
+
+    .text h1{
+        font-size: 40px;
+    }
     
 }
 
@@ -306,6 +373,10 @@ body {
 
     .menu-respo button {
         font-size: 5px;
+    }
+
+    .text h1{
+        font-size: 35px;
     }
     
 }
