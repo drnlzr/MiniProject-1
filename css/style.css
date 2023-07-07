@@ -1,19 +1,35 @@
-* {
+.cus-font a, button{
     font-family: 'Inter', sans-serif;
 }
-
 /* Show it is fixed to the top */
 body {
     min-height: 75rem;
     padding-top: 4.7rem;
-  }
-  
+}
+
+.dark-red button{
+    background-color: rgba(127, 30, 30, 1);
+}
+
+.banner button{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+} 
+
 .bg-custom {
     background-color: rgba(228, 213, 192, 1);
 }
 
-.btn {
+.body-custom {
+    background-color: rgb(208, 187, 157);
+}
+
+.cus-btn {
     margin-right: 10px;
+}
+
+.top-spacing h1 {
+    padding-top: 25rem;
 }
 
 .container-navbar {
@@ -35,37 +51,256 @@ body {
     height: 100%;
 }
 
+.banner {
+    position: relative;
+}
 
+.container-content h3 {
+    font-family: 'Freehand', cursive;
+    font-size: 50px;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -260%);
+}
 
-
-
-
-
-
-
-
-/* /////////// */
-
-
-
-
-/* //////////////////// */
-
-
-
-
-
-@media only screen and (max-width: 1320px) {
-   
+.container-content h1 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 60px;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
 }
 
 
-@media only screen and (max-width: 550px) {
+
+.container-content button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+
+.cus-content h1{
+    font-family: 'Alumni Sans Inline One', cursive;
+    color: white;
+}
+
+.cus-content p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.cus-content button {
+    background-color: rgba(228, 213, 192, 0.50);
+}
+
+.cus-m {
+    margin-right: 0px;
+}
+
+.suman {
+    position: relative;
+}
+
+.suman-content {
+    font-family: 'Alumni Sans Inline One', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, 140%);
+}
+
+.suman-content button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16PX;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 1030px) {
+
+    .menu-respo .p2 {
+        display: none;
+    }
+
+    .menu-respo button {
+        font-size: 15px;
+    }
+
+    .menu-respo h1 {
+        font-size: 20px;
+    }
+
+    .cus-font img {
+        width: 40px;
+    }
+
+    .top-spacing h1 {
+        padding-top: 20rem;
+    }
+
+    .marg-left {
+        margin-left: 10rem;
+    }
+}
+
+
+@media only screen and (max-width: 912px) {
+
+    .menu-respo h1 {
+        font-size: 40px;
+    }
+
+    .top-spacing h1 {
+        padding-top: 15rem;
+    }
+}
+
+@media only screen and (max-width: 800) {
+    .pos {
+        display: none;
+       }    
+    
+    .cus-content p {
+        font-size: 10px;
+    }
+
+    .top-spacing h1 {
+        padding-top: rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .top-spacing h1 {
+        padding-top: 190px;
+    }
+
+    .menu-respo p {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 540px) {
     .pos {
         display: none;
        }      
     
     body {
-        padding-top: 2rem;
+        padding-top: 3rem;
+    }
+
+    .container-content h3 {
+        font-size: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -200%);
+    }
+    
+    .container-content h1 {
+        font-size: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+    }
+
+    .container-content button {
+        position: absolute;
+        font-size: 8px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 100%);
+    }
+
+    .cus-content p {
+        font-size: 10px;
+    }
+
+    .menu-respo p {
+        display: none;
+    }
+
+    .menu-respo h1 {
+        font-size: 20px;
+    }
+
+    .top-spacing h1 {
+        padding-top: 130px;  
+    }
+    .menu-respo button {
+        font-size:10px;
+        margin-bottom: 12px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 420px) {
+    .top-spacing h1 {
+        padding-top: 3rem;
+    }
+
+    .menu-respo button {
+        font-size: 10px;
+    }
+
+    .pos {
+        display: none;
+       } 
+}
+
+
+@media only screen and (max-width: 390px) {
+    .top-spacing h1 {
+        padding-top: 5rem;
+    }
+
+    .menu-respo h1 {
+        font-size: 12px;
+    }
+
+    .menu-respo button {
+        font-size: 5px;
+    }
+    
+}
+
+@media only screen and (max-width: 380px) {
+    .top-spacing h1 {
+        padding-top: 70px;
+    }
+
+    .menu-respo h1 {
+        font-size: 12px;
+    }
+
+    .menu-respo button {
+        font-size: 5px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 280px) {
+    .top-spacing h1 {
+        padding-top: 34px;
+    }
+
+    .menu-respo h1 {
+        font-size: 10px;
+    }
+    .menu-respo button {
+        font-size:4px;
+        margin-bottom: 12px;
     }
 }
