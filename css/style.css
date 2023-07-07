@@ -5,10 +5,16 @@
 body {
     min-height: 75rem;
     padding-top: 4.7rem;
+    overflow-x: hidden;
 }
 
 .dark-red button{
     background-color: rgba(127, 30, 30, 1);
+}
+
+.margin-cus {
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .banner button{
@@ -121,12 +127,21 @@ body {
     font-size: 16PX;
 }
 
+.vr-line {
+    border: 1px solid black;
+    height: 200px;
+}
+
 /* responsiveness */
 
 @media only screen and (max-width: 1030px) {
 
     .menu-respo .p2 {
         display: none;
+    }
+
+    .footer-respo h1, p {
+        font-size: 10px;
     }
 
     .menu-respo button {
