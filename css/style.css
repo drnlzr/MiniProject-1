@@ -33,6 +33,10 @@ body {
     background-color: rgb(208, 187, 157);
 }
 
+.navbar-toggler-icon {
+    color: black;
+}
+
 .cus-btn {
     margin-right: 10px;
 }
